@@ -1,0 +1,6 @@
+Pour compiler rapidement tous les chapitres en bibtex, en une ligne de commande !
+(utilisation de biblatex avec une biblio par chapitre)
+Il faut compiler chaque fichier *-blx.aux
+
+$ for i in *-blx.aux; do bibtex $i; done
+
